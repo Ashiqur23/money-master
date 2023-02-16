@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Money Master</title>
+</head>
+<body>
+    <header>
+        <section>
+            <main>
+                <div class="d-flex">
+                    <div class="img-box">
+                        <img src="./money-master.png" alt="Calculate">
+                    </div>
+                    <div class="inner-content">
+                        <div class="content-box">
+                            <div class="input-box">
+                                <h3 class="text-center">Income</h3>
+                            <div>
+                                <div class="possition">
+                                    <p class="notify" id="income-error">
+                                    please enter you income amount
+                                </p>
+                                </div>
+                                <div class="d-flex">
+                                    <p>Income:</p>
+                                    <input id="Income" type="text">
+                                </div>
+                            </div>
+                            <h3 class="text-center">Expenses</h3>
+                            <div class="possition">
+                                <p class="notify" id="food-error">
+                                please enter you food amount
+                            </p>
+                            </div>
+                            <div class="d-flex">
+                                <p>food:</p>
+                                <input id="food" type="text">
+                            </div>
+                            <div class="possition">
+                                <p class="notify" id="rest-error">
+                                please enter you Rest amount
+                            </p>
+                            </div>
+                            <div class="d-flex">
+                                <p>Rent:</p>
+                                <input id="Rent" type="text">
+                            </div>
+                            <div class="possition">
+                                <p class="notify" id="Closthes-error">
+                                please enter you Closthes amount
+                            </p>
+                            </div>
+                            <div class="d-flex">
+                                <p>Closthes:</p>
+                                <input id="Closthes" type="text">
+                            </div>
+                            <div class="text-center">
+                                <button id="Calculate">Calculate</button>
+                            </div>
+                            </div>
+                            <h2 class="text-center">Total Expenses:<span id="Total-Expenses">0</span></h2>
+                            <h3 class="text-center">Balance:<span id="Balance">0</span></h3>
+
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <P>Save:</P>
+                                    <input id="save-input" type="text">
+                                </div>
+                                <div class="d-flex">
+                                    <P class="parsent">%</P>
+                                    <button id="save-btn">Save</button>
+                                </div>
+                            </div>
+                            <div class="possition">
+                                <p class="notify" id="saving-error">
+                                please enter you Closthes amount
+                            </p>
+                            </div>
+                            <h2 class="text-center">Saving Amount:<span id="Saving-Amount">0</span></h2>
+                            <h3 class="text-center">Remaining Balance:<span id="Remaining-Balance">0</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </header>
+    <script src="js/apply.js"></script>
+</body>
+</html>
